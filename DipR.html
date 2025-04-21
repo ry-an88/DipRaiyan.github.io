@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dip Raiyan | Tech Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="DipR.css">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="background-animation" id="background-animation"></div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">Dip<span>Raiyan</span></div>
+                <div class="nav-links">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <button class="nav-button" id="nav-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobile-nav">
+        <button class="close-nav" id="close-nav">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="subtitle">Hello, my name is</p>
+                    <h1>Dip <span>Raiyan</span></h1>
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <div class="terminal-button red"></div>
+                                <div class="terminal-button yellow"></div>
+                                <div class="terminal-button green"></div>
+                            </div>
+                            <div class="terminal-title">dip@dev-portfolio ~ </div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="command">
+                                <span class="prompt">$</span>
+                                <span class="typing">cat about.txt</span>
+                            </div>
+                            <p>I'm a Computer Science student passionate about building innovative solutions. I specialize in web development and machine learning, creating products that make a difference.</p>
+                            <div class="command">
+                                <span class="prompt">$</span>
+                                <span class="cursor"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#projects" class="btn">View My Work</a>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="media2.jpg" alt="Dip Raiyan">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Computer Science Student & Developer</h3>
+                    <p>Hello! I'm a passionate computer science student currently pursuing my degree at [Your University]. My journey in technology began when I was 14, tinkering with my first HTML website, and I've been hooked ever since.</p>
+                    <p>I enjoy solving complex problems and turning ideas into reality through code. My academic interests include artificial intelligence, data structures, and full-stack development. When I'm not coding, you can find me participating in hackathons, contributing to open-source projects, or exploring the latest tech trends.</p>
+                    <div class="skills-container">
+                        <h3>Technical Skills</h3>
+                        <div class="skills">
+                            <div class="skill"><i class="fab fa-html5"></i> HTML5</div>
+                            <div class="skill"><i class="fab fa-css3-alt"></i> CSS3</div>
+                            <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+                            <div class="skill"><i class="fab fa-react"></i> React</div>
+                            <div class="skill"><i class="fab fa-node-js"></i> Node.js</div>
+                            <div class="skill"><i class="fab fa-python"></i> Python</div>
+                            <div class="skill"><i class="fab fa-java"></i> Java</div>
+                            <div class="skill"><i class="fab fa-git-alt"></i> Git</div>
+                            <div class="skill"><i class="fas fa-database"></i> SQL</div>
+                            <div class="skill"><i class="fas fa-brain"></i> Machine Learning</div>
+                            <div class="skill"><i class="fas fa-sitemap"></i> Data Structures</div>
+                            <div class="skill"><i class="fas fa-cogs"></i> Algorithms</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="terminal">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <div class="terminal-button red"></div>
+                            <div class="terminal-button yellow"></div>
+                            <div class="terminal-button green"></div>
+                        </div>
+                        <div class="terminal-title">dip@dev-portfolio ~ </div>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="command">
+                            <span class="prompt">$</span>
+                            <span>ls -la skills/</span>
+                        </div>
+                        <p>total 12</p>
+                        <p>drwxr-xr-x  2 dip  staff   frontend</p>
+                        <p>drwxr-xr-x  2 dip  staff   backend</p>
+                        <p>drwxr-xr-x  2 dip  staff   databases</p>
+                        <p>drwxr-xr-x  2 dip  staff   machine-learning</p>
+                        <div class="command">
+                            <span class="prompt">$</span>
+                            <span>echo "I'm constantly learning new technologies to expand my skill set."</span>
+                        </div>
+                        <p>I'm constantly learning new technologies to expand my skill set.</p>
+                        <div class="command">
+                            <span class="prompt">$</span>
+                            <span class="cursor"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/200" alt="Project 1">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Neural Network Classifier</h3>
+                        <p class="project-description">A machine learning model that classifies images with high accuracy using convolutional neural networks.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Python</span>
+                            <span class="project-tag">TensorFlow</span>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/200" alt="Project 2">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">DevConnect Platform</h3>
+                        <p class="project-description">A full-stack social platform for developers to share projects, connect, and collaborate on innovative ideas.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Node.js</span>
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">Express</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/api/placeholder/400/200" alt="Project 3">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Crypto Analytics Dashboard</h3>
+                        <p class="project-description">Real-time cryptocurrency analytics dashboard with price tracking, historical data, and predictive algorithms.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Chart.js</span>
+                            <span class="project-tag">API Integration</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm currently looking for new opportunities and projects to work on. Whether you have a question or just want to say hi, I'll do my best to get back to you!</p>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your.email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Dip<span>Raiyan</span></div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com/yourusername" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; <span id="current-year"></span> Dip Raiyan. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script>
+        // Set current year in footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+
+        // Mobile Navigation
+        const navButton = document.getElementById('nav-button');
+        const mobileNav = document.getElementById('mobile-nav');
+        const closeNav = document.getElementById('close-nav');
+        const overlay = document.getElementById('overlay');
+        const mobileLinks = document.querySelectorAll('.mobile-links a');
+
+        navButton.addEventListener('click', () => {
+            mobileNav.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        });
+
+        function closeNavMenu() {
+            mobileNav.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        closeNav.addEventListener('click', closeNavMenu);
+        overlay.addEventListener('click', closeNavMenu);
+        
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', closeNavMenu);
+        });
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Active navigation highlighting
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                
+                if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Form submission
+        const contactForm = document.getElementById('contact-form');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const submitButton = contactForm.querySelector('button');
+            const originalText = submitButton.textContent;
+            
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+            
+            // Simulate form submission
+            setTimeout(() => {
+                submitButton.textContent = 'Message Sent!';
+                
+                // Reset form
+                contactForm.reset();
+                
+                // Reset button after 3 seconds
+                setTimeout(() => {
+                    submitButton.textContent = originalText;
+                    submitButton.disabled = false;
+                }, 3000);
+            }, 1500);
+        });
+
+        // Animated Background
+        function createParticles() {
+            const container = document.getElementById('background-animation');
+            const particleCount = 30;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                
+                // Random position
+                const posX = Math.random() * window.innerWidth;
+                const posY = Math.random() * window.innerHeight;
+                
+                // Random size
+                const size = Math.random() * 3 + 1;
+                
+                // Apply styles
+                particle.style.left = `${posX}px`;
+                particle.style.top = `${posY}px`;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Add to container
+                container.appendChild(particle);
+                
+                // Animate the particle
+                animateParticle(particle);
+            }
+        }
+
+        function animateParticle(particle) {
+            const duration = Math.random() * 8 + 5; // seconds
+            const toX = Math.random() * window.innerWidth;
+            const toY = Math.random() * window.innerHeight;
+            
+            particle.style.transition = `all ${duration}s linear`;
+            
+            setTimeout(() => {
+                particle.style.left = `${toX}px`;
+                particle.style.top = `${toY}px`;
+                
+                // Recursive animation
+                setTimeout(() => {
+                    animateParticle(particle);
+                }, duration * 1000);
+            }, 100);
+        }
+
+        // Initialize particles on load
+        window.addEventListener('load', createParticles);
+
+        // Terminal cursor blinking effect
+        function blinkCursor() {
+            const cursor = document.querySelector('.cursor');
+            setInterval(() => {
+                cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0';
+            }, 500);
+        }
+
+        // Initialize the cursor blinking
+        window.addEventListener('load', blinkCursor);
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = targetElement.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
